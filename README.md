@@ -78,3 +78,9 @@ This framework is configured for easy deployment on [Railway.app](https://railwa
 
 #### Procfile
 web: npm run start
+
+
+## Acknowledgments
+
+This project is based on the work done in the [chatbot-conversation-jarvis](https://github.com/coderaidershaun/chatbot-conversation-jarvis) repository by [coderaidershaun](https://github.com/coderaidershaun). We are thankful to them for their original contributions and ideas.
+
