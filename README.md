@@ -21,7 +21,7 @@ Jocular Julius is an engaging Latin teacher voice chatbot designed to make learn
 - **Customizability**: Easily adaptable to meet diverse use cases.
 
 ### Limitations
-- Response times may range between 5-10 seconds due to multiple backend API calls.
+- Response times may range between 5-10 seconds due to multiple backend API calls. Expect longer response times during peak traffic hours. But the wait is worth it, and the response will be entertaining. 
 - Autoplay of responses may not function on some mobile browsers.
 
 ### Project Notes
