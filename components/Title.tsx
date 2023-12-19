@@ -33,7 +33,7 @@ function Title({ setMessages }: Props) {
 
   return (
     <div className="flex justify-between items-center w-full p-4 bg-gray-900 text-white font-bold shadow">
-      <div className="italic">Jocular {config.BOT_NAME}: The funny Latin teacher </div>
+      <div className="italic">Jocular {config.BOT_NAME}, a Latin teacher with a humerus bone </div>
       <button
         onClick={resetConversation}
         className={
