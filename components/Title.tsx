@@ -34,7 +34,7 @@ function Title({ setMessages }: Props) {
   return (
    <div>
     <div className="flex justify-between items-center w-full p-4 bg-gray-900 text-white font-bold shadow">
-      <div className="italic">Jocular {config.BOT_NAME}, a Latin teacher with a humerus bone 
+      <div className="italic text-lg">Jocular {config.BOT_NAME}, a Latin teacher with a humerus bone 
       </div>
       <button
         onClick={resetConversation}
@@ -64,7 +64,7 @@ function Title({ setMessages }: Props) {
         <ul className="list-disc list-inside">
           {/* Add your instructions here as list items */}
           <li>Ask questions to help you learn Latin such as "How do you say hello in Latin?" and "How do you count to 10?" </li>
-          <li>Click the Start button on the bottom left to start recording your voice, and then the Stop button to stop recording.</li>
+          <li>Press the mic icon to start recording, and release to stop recording.</li>
           <li>Julius is still learning and may take about 10 secs to respond, so please be patient.</li>
           {/* Add more instructions as needed */}
         </ul>
