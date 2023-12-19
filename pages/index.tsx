@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Title from "@/components/Title";
-import { RecordMessage } from "@/components/RecordMessage";
+//import { RecordMessage } from "@/components/RecordMessage";
+import RecordMessage from "@/components/RecordMessage";
 import config from '../config'; // Adjust the path as necessary
 import Link from 'next/link';
 

@@ -5,39 +5,30 @@ type Props = {
   handleStop: any;
 };
 
-export const RecordMessage = ({ handleStop }: Props) => {
+const RecordMessage = ({ handleStop }: Props) => {
   return (
-     <div>
     <ReactMediaRecorder
       audio
       onStop={handleStop}
-      render={({ status, startRecording, stopRecording, mediaBlobUrl }) => (
+      render={({ status, startRecording, stopRecording }) => (
         <div className="mt-2">
-          <p className="mt-2 text-white font-light">{status}</p>
-            
-            
-          
-            
-<div className="flex">
-<button className="bg-blue-900 p-4 rounded-full text-white" 
-onClick={startRecording}>Start</button>
-<RecordIcon
+          <button
+            onMouseDown={startRecording}
+            onMouseUp={stopRecording}
+            className="bg-white p-4 rounded-full"
+          >
+            <RecordIcon
               classText={
                 status == "recording"
                   ? "animate-pulse text-red-500"
                   : "text-sky-500"
               }
             />
-<button className="bg-blue-900 p-4 rounded-full text-white" 
-onClick={stopRecording}>Stop</button>
-
-</div>
-
-          
+          </button>
+          <p className="mt-2 text-white font-light">{status}</p>
         </div>
       )}
     />
-   </div>
   );
 };
 
