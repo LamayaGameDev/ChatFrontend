@@ -63,9 +63,9 @@ function Title({ setMessages }: Props) {
         <strong>Instructions</strong>:
         <ul className="list-disc list-inside">
           {/* Add your instructions here as list items */}
-          <li>Ask questions to help you learn Latin such as "How do you say hello in Latin?" and "How do you count to 10?" </li>
+          <li>Ask questions to help you learn Latin, such as "How do you say hello in Latin?" and "How do you count to 10?" </li>
           <li>Press the mic icon to start recording, and release to stop recording.</li>
-          <li>Julius is still learning and may take about 10 secs to respond, so please be patient.</li>
+          <li>Limitations: May take up to 10 secs to respond. Only works on desktop (Mac or PC).</li>
           {/* Add more instructions as needed */}
         </ul>
       </div>
