@@ -25,7 +25,7 @@ Jocular Julius is an engaging Latin teacher voice chatbot designed to make learn
 - Autoplay of responses may not function on some mobile browsers.
 
 ### Project Notes
-- Initiated in March 2023, preceding OpenAI's voice capability addition to its iPhone app in November 2023.
+- Project started in March 2023, preceding OpenAI's voice capability addition to its iPhone app in November 2023.
 
 ## Repository Overview
 
@@ -38,8 +38,6 @@ We recommend that you manage these repositories separately for efficient develop
 
 ## Getting Started
 
-### Prerequisites
-- Ensure Node.js and npm are installed ([Download Node.js](https://nodejs.org/))
 
 ### Clone the Repository
 To set up the frontend:
@@ -48,22 +46,10 @@ git clone https://github.com/LamayaGameDev/ChatFrontend.git chatbot-frontend
 cd chatbot-frontend
 ```
 
-
-### Installation
-Install the necessary dependencies:
-
-```shell npm install ```
-
 ### ENV
 Set the following ENV variables
 - NEXT_PUBLIC_BASE_URL=<Backend_URL> : This lets the frontend know which backend URL to call. 
 
-### Running Locally
-To start the frontend on your local machine, use:
-
-```shell npm run dev ```
-
-This will launch the project in development mode. Visit `http://localhost:3000` (or the port provided in your terminal) to view it in the browser.
 
 ## Deployment
 
