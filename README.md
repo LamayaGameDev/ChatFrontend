@@ -62,9 +62,6 @@ This framework is configured for easy deployment on [Railway.app](https://railwa
 3. **Environment Setup**: Ensure all necessary environment variables are set up in Railway's dashboard. See ENV details above. 
 4. **Deploy**: Use the provided `Procfile` for seamless deployment.
 
-#### Procfile
-web: npm run start
-
 
 ## Acknowledgments
 
